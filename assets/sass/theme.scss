@@ -64,6 +64,9 @@ body {
         opacity: 1;
         .search-field { @include transform( rotateX(0) ); }
       }
+      form {
+        height: 100%;
+      }
       .search-field {
         @include transition ( all 300ms ease-out );
         @include transform( rotateX(-90deg) translate3d(0,0,0) );
