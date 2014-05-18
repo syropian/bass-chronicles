@@ -33,6 +33,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     @include animation( shadow-pulse 1.5s ease-in-out infinite alternate-reverse backwards );
+    a:hover { color: $light; }
   }
   #nav {
     text-align: center;
