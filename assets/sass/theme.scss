@@ -81,9 +81,12 @@ body {
         width: 100%;
       }
       input[type=submit] {
+        @include appearance( none );
         @include size( 0 );
-        visibility: hidden;
+        border: 0;
         margin: 0;
+        padding: 0;
+        visibility: hidden;
       }
     }
   }
