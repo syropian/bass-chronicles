@@ -77,6 +77,11 @@ body {
         padding: 0 15px;
         width: 100%;
       }
+      input[type=submit] {
+        @include size( 0 );
+        visibility: hidden;
+        margin: 0;
+      }
     }
   }
 }
